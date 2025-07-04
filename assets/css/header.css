@@ -1,0 +1,51 @@
+  .top-bar {
+      background-color: #7dbd66;
+      color: white;
+      padding: 0px 15px;
+      font-weight: bold;
+    }
+    .top-bar-hot-line{
+      background: #019642;
+      height: 40px;
+      padding: 6px 12px;
+    }
+    .btn-purple{
+      background-color: #2d2d87;
+    }
+    .btn-purple:hover{
+      background-color: #2d2d87;
+    }
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+    }
+    .social-icons img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    .main-header {
+      background: white;
+      padding: 10px 0;
+    }
+    .main-title {
+      font-size: 30px;
+      font-weight: 700;
+      color: #008f3e;
+    }
+    .nav-item .nav-link {
+      color: white !important;
+      background-color: #6b1f06;
+      margin-right: 3px;
+      padding: 10px 15px;
+      border-radius: 2px;
+    }
+    .nav-link:hover {
+      background-color: #8d2d0d !important;
+    }
+    .navbar-nav {
+      flex-wrap: wrap;
+    }
+    @media(max-width: 992px){
+
+    }

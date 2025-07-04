@@ -1,0 +1,215 @@
+.product-item{
+    position: relative;
+    padding: 5px;
+}
+.product-item .image {
+    position: relative;
+    aspect-ratio: 7/10;
+    overflow: hidden;
+}
+.product-item .image .secondary_image{
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product-item:hover .image .secondary_image{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.5);
+    
+}
+.product-item:hover .image .primary_image{
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5);
+}
+.product-item .image .primary_image{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    transition: 2s;
+}
+.fixed_content{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+.fixed_content a{
+    color: rgb(78, 78, 78);
+    display: block;
+    padding: 5px;
+}
+.product-item:hover .fixed_content{
+    visibility: visible;
+    opacity: 1;
+}
+.product-item .content .hoverable{
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+    text-decoration: none;
+}
+.product-item:hover .content .hoverable{
+    color: rgb(187, 10, 10);
+    cursor: pointer;
+}
+.product-item .right_content{
+    display: none;
+}
+.product-item .content .content_p{
+    display: none;
+}
+.list_view .product-item.image .fixed_content{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+.list_view .product-item .image{
+    width: 180px;
+    overflow: hidden;
+}
+.list_view .product-item > .fixed_content{
+    display: none;
+}
+.list_view .product-item{
+    display: flex;
+    align-items: center;
+}
+.list_view .product-item .content{
+    padding-left: 2%;
+}
+.list_view .product-item .content .content_p{
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 60px;
+}
+.list_view .product-item .right_content{
+    display: block;
+}
+@media (max-width: 768px) {
+    .list_view .product-item .image{
+        width: 120px;
+    }
+}
+
+.add_chart_btn{
+    background-color: #ce3241;
+    color: #fff;
+}
+.add_chart_btn:hover{
+    background-color: #91232d;
+    color: #fff;
+    border-style: none;
+}
+
+.segeo_font_8{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    color: #5c5454 !important;
+  }
+.question_btn{
+    border-style: none;  
+    background-color: transparent !important;
+}
+.question_btn:hover{
+    color: #ce3241;
+    transition: 0.4s;
+}
+.discription:hover{
+    color: #ce3241;
+    transition: 0.4s;
+}
+.svg-payment-icon {
+    width: 60px !important;
+    height: 60px !important;
+    margin-right: 3px;
+}
+.button.t4s-product__description_readm {
+    padding: 0;
+    background-color: transparent !important;
+    color: #222;
+    margin: 0 5px;
+    text-decoration: underline;
+    display: inline-block;
+}
+.btn-cart{
+    padding: 0;
+    background-color: transparent !important;
+    color: #222;
+    margin: 0 5px;
+    text-decoration: underline;
+    display: inline-block;   
+}
+.btn-cart:hover{
+    color: rgba(238, 49, 49, 0.89);
+    border-style: none;
+    
+}
+
+.cart_btn{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.buy_it_btn{
+    background-color: #222;
+    color: aliceblue;
+}
+.buy_it_btn:hover{
+    background-color: rgba(184, 59, 59, 0.945);
+    color: aliceblue;
+    transition: 0.4s;
+}
+.cart_btn{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.buy_it_btn{
+    background-color: #222;
+    color: aliceblue;
+}
+.buy_it_btn:hover{
+    background-color: rgba(184, 59, 59, 0.945);
+    color: aliceblue;
+    transition: 0.4s;
+}
+.colors{
+    
+    background-color: darkgrey;
+     width: 24px;
+     height: 24px;
+     padding: 0;
+     font-size: 0;
+     box-shadow: inset 0 0 0 2px var(--black);
+ }
+ .bg_color{
+    border-width: 2px;
+    border-color: #222;
+}
+.cod > img{
+    height: 60px;
+}
+.svg_icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 3px;
+}
+.fa{
+    font-size: 14px;
+   
+
+}
+.checked{
+    color: #707070;
+}
