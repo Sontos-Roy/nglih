@@ -15,6 +15,7 @@
   --black: rgb(0, 0, 0);
   --white: rgb(247, 247, 247);
   --blue: #0c497d;
+  --sea_blue: #5b81c0;
   --primary: #7dbd66;
   --secondary: #03a04a;
   --muted: #f3f3f3;
@@ -322,4 +323,16 @@ input:focus-visible {
   body {
     background: #ffffff;
   }
+}
+.bg_sea_blue{
+  background-color: var(--sea_blue);
+  color: white;
+  border-color: white;
+}
+.menu_main_box .bg_sea_blue:hover{
+  background-color: #7499d3;
+  color: white;
+}
+.services .service > div{
+  background-color: #e6f4ff;
 }
